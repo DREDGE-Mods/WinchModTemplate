@@ -8,7 +8,7 @@ A template Dredge mod for use with the Winch mod loader
 - A GitHub account (required for using the template and releasing your mod to the public)
 
 ### Creating your mod
-1. Generate your repository from this template
+1. [Generate your repository from this template](https://github.com/new?template_name=WinchModTemplate&template_owner=DREDGE-Mods)
 2. Clone your new repository to your machine
 3. Open all files in a text editor and do a find replace on `WinchModTemplate` to change it to the name of your mod without spaces. For example, `CosmicHorrorFishingBuddies`.
 4. Rename all files with `WinchModTemplate` in the name to instead be the name of your mod without spaces.

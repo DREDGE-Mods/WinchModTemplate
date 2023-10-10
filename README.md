@@ -3,7 +3,7 @@ A template Dredge mod for use with the Winch mod loader
 
 ### Prerequisites
 - An IDE that supports .NET, like Visual Studio ([community version available here](http://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community))
-- Dredge Mod Manager (get it from the [https://dredgemods.com/](Dredge Mods) website)
+- Dredge Mod Manager (get it from the [Dredge Mods](https://dredgemods.com) website)
 - Winch installed in the mod manager
 - A GitHub account (required for using the template and releasing your mod to the public)
 

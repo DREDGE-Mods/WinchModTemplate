@@ -44,8 +44,17 @@ You will want to change most of these fields
 - In the `OutputPath` line, change `YourName.WinchModTemplate` to match the `ModGUID` you wrote in `mod_meta.json`.
 
 ### Releasing your mod
+Can either be done manually or with the GitHub action.
+
+#### Manually
 First build the mod using your IDE. Find it in the mods folder under your Dredge install. Zip the contents of the folder with your mod's `ModGUID`. For the mod to work properly with the manager, the name of the zip must not change between versions. Ideally, keep the zip file name as your `ModGUID`.
 
 Create a new release on GitHub. Have the version tag exactly match the `Version` property in the `mod_meta.json` file. When you update the mod, be sure that you incremented this version number. You should follow [semantic versioning](https://semver.org/). When making a new release for an update, you leave the previous release alone and create a new one with the new version tag.
 
+#### Action
+1. Go to the settings for your repository and make sure that GitHub actions have permissions to create releases.
+2. Go to the actions tab on your repository and manually trigger the Create Release action.
+3. Go to the releases tab and verify that the release was properly made, then publish it (it will be a draft).
+
+#### Adding to the database
 Open an [issue](https://github.com/DREDGE-Mods/DredgeModDatabase/issues/new?assignees=&labels=add-new-mod&projects=&template=add-new-mod.yml&title=%5BYour+mod+name+here%5D) on the mod [database](https://github.com/DREDGE-Mods/DredgeModDatabase) to have your mod featured on [dredgemods.com](https://dredgemods.com/) and make it available in the [Dredge Mod Manager](https://github.com/DREDGE-Mods/DredgeModManager).

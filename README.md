@@ -52,7 +52,7 @@ First build the mod using your IDE. Find it in the mods folder under your Dredge
 Create a new release on GitHub. Have the version tag exactly match the `Version` property in the `mod_meta.json` file. When you update the mod, be sure that you incremented this version number. You should follow [semantic versioning](https://semver.org/). When making a new release for an update, you leave the previous release alone and create a new one with the new version tag.
 
 #### Action
-1. Go to the settings for your repository and make sure that GitHub actions have permissions to create releases.
+1. Go to the settings for your repository and make sure that GitHub actions have permissions to create releases. This is under Actions -> General -> Workflow permissions -> Check "Read and write permissions".
 2. Go to the actions tab on your repository and manually trigger the Create Release action.
 3. Go to the releases tab and verify that the release was properly made, then publish it (it will be a draft).
 

@@ -14,6 +14,9 @@ env:
     PROJ_USERNAME: YourName
     PROJ_NAME: WinchModTemplate
 
+permissions:
+  contents: write
+
 jobs:
     pre_job:
         name: Check For Other Releases

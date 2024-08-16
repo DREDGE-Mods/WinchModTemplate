@@ -53,8 +53,13 @@ Create a new release on GitHub. Have the version tag exactly match the `Version`
 
 #### Action
 1. Go to the settings for your repository and make sure that GitHub actions have permissions to create releases. This is under Actions -> General -> Workflow permissions -> Check "Read and write permissions".
-2. Go to the actions tab on your repository and manually trigger the Create Release action.
-3. Go to the releases tab and verify that the release was properly made, then publish it (it will be a draft).
+2. Edit these two lines in [release.yml](/.github/workflows/release.yml#L14-L15) to be your name and name of the project.
+```
+    PROJ_USERNAME: YourName
+    PROJ_NAME: WinchModTemplate
+```
+3. Go to the actions tab on your repository and manually trigger the Create Release action.
+4. Go to the releases tab and verify that the release was properly made, then publish it (it will be a draft).
 
 #### Adding to the database
 Open an [issue](https://github.com/DREDGE-Mods/DredgeModDatabase/issues/new?assignees=&labels=add-new-mod&projects=&template=add-new-mod.yml&title=%5BYour+mod+name+here%5D) on the mod [database](https://github.com/DREDGE-Mods/DredgeModDatabase) to have your mod featured on [dredgemods.com](https://dredgemods.com/) and make it available in the [Dredge Mod Manager](https://github.com/DREDGE-Mods/DredgeModManager).

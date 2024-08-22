@@ -53,7 +53,7 @@ Create a new release on GitHub. Have the version tag exactly match the `Version`
 
 #### Action
 1. Go to the settings for your repository and make sure that GitHub actions have permissions to create releases. This is under Actions -> General -> Workflow permissions -> Check "Read and write permissions".
-2. Edit these two lines in [release.yml](/.github/workflows/release.yml#L14-L15) to be your name and name of the project.
+2. Edit these two lines in [release.yml](/.github/workflows/release.yml#L14-L15) to be your name and name of the project. If you did your find-replace properly this will already be done.
 ```
     PROJ_USERNAME: YourName
     PROJ_NAME: WinchModTemplate

@@ -34,7 +34,7 @@ The `mod_meta.json` file looks something like this:
 You will want to change most of these fields
 
 - `Name`: This is the human readable name of your mod. They will see this name in the mod manager and on the website.
-- `ModGUID`: This is the unique identifier for your mod. To prevent overlaps, you should make this `[YourName].[ModName]`. For example, `xen.CosmicHorrorFishingBuddies`.
+- `ModGUID`: This is the unique identifier for your mod. To prevent overlaps, you should make this `[YourName].[ModName]`. For example, `xen.CosmicHorrorFishingBuddies`. If you did your find-replaces correctly this will already be set to an appropriate unique id.
 - `ModAssembly`: The main `.dll` file for your mod. This should be changed along with all other references to `WinchModTemplate` in a find/replace on all files.
 - `MinWinchVersion`: Set this to be the current Winch version you're using.
 - `EntryPoint`: This is the class and method that is initially called to start your mod. Normally you can just leave this alone.

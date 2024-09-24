@@ -62,4 +62,4 @@ Create a new release on GitHub. Have the version tag exactly match the `Version`
 4. Go to the releases tab and verify that the release was properly made, then publish it (it will be a draft).
 
 #### Adding to the database
-Open an [issue](https://github.com/DREDGE-Mods/DredgeModDatabase/issues/new?assignees=&labels=add-new-mod&projects=&template=add-new-mod.yml&title=%5BYour+mod+name+here%5D) on the mod [database](https://github.com/DREDGE-Mods/DredgeModDatabase) to have your mod featured on [dredgemods.com](https://dredgemods.com/) and make it available in the [Dredge Mod Manager](https://github.com/DREDGE-Mods/DredgeModManager).
+Fill out the form [here](https://github.com/DREDGE-Mods/DredgeModDatabase/issues/new?assignees=&labels=add-new-mod&projects=&template=add-new-mod.yml&title=%5BYour+mod+name+here%5D) on the mod [database](https://github.com/DREDGE-Mods/DredgeModDatabase) to have your mod featured on [dredgemods.com](https://dredgemods.com/) and make it available in the [Dredge Mod Manager](https://github.com/DREDGE-Mods/DredgeModManager).

@@ -13,13 +13,17 @@ on:
 
 jobs:
   rename:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       
       - name: Run renaming script
-        run: ./renaming.sh "${{ github.event.inputs.modname }}" "${{ github.event.inputs.username }}"
+        run: |
+          chmod 700 .github/workflows/rename-script.sh
+          .github/workflows/rename-script.sh "${{ github.event.inputs.modname }}" "${{ github.event.inputs.username }}"
         
       - name: Commit changes
         run: |

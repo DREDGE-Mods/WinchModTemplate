@@ -1,6 +1,6 @@
 # first argument is the mod's name and the second one is the mod author
-name=$1
-author=$2
+name=$(echo "$1" | sed -e "s/[ \t]*$//g" -e "s/^[ \t]*//g")
+author=$(echo "$2" | sed -e "s/[ \t]*$//g" -e "s/^[ \t]*//g")
 
 renaming()
 {

@@ -32,7 +32,7 @@ The `mod_meta.json` file looks something like this:
 	"ModGUID": "YourName.WinchModTemplate",
 	"Version": "0.0.1",
 	"ModAssembly": "WinchModTemplate.dll",
-	"MinWinchVersion": "0.2.3",
+	"MinWinchVersion": "0.6.1",
 	"Entrypoint": "WinchModTemplate.Loader/Initialize"
 }
 ```

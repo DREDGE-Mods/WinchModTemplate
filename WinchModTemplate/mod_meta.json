@@ -4,6 +4,6 @@
 	"ModGUID": "YourName.WinchModTemplate",
 	"Version": "0.0.1",
 	"ModAssembly": "WinchModTemplate.dll",
-	"MinWinchVersion": "0.4.0",
+	"MinWinchVersion": "0.6.1",
 	"Entrypoint": "WinchModTemplate.Loader/Initialize"
 }
